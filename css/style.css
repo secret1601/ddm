@@ -91,7 +91,7 @@ body {
     transform: translate(-50%, -50%);
     display: block;
     width: 400px;
-    height: 280px;
+    height: 260px;
     background-color: #0fc224;
     border-radius: 15px;
     text-align: center;
@@ -105,7 +105,7 @@ color: #fff;
 font-size: 1.9rem;
 font-family: 'GmarketSansMedium';
 font-weight: 400;
-line-height: 30px;
+line-height: 20px;
 padding-top: 60px;
 text-align: center;
 }
@@ -129,8 +129,12 @@ position: relative;
 display: block;
 font-size: 1.4rem;
 color: rgb(247, 223, 193);
-padding-top: 10px;
-
+margin-top: 15px;
+}
+.modal-txt em b {
+    position: relative;
+    display: block;
+    margin-bottom: -8px;
 }
 
 .modal-close {
@@ -149,7 +153,7 @@ cursor: pointer;
 padding: 10px 20px;
 text-align: center;
 text-transform: uppercase;
-margin-top: 6px;
+margin-top: 13px;
 
 transition: background-color 0.4s;
 }
